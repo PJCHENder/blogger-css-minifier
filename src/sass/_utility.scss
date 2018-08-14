@@ -1,0 +1,28 @@
+span.highlight {
+  font-weight: bold;
+}
+
+span.code {
+  font-family: inconsolata, monospace;
+  font-size: 1.1rem;
+  padding: 2px 6px;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+  vertical-align: bottom;
+}
+
+div > span.keyword {
+  background-color: #eeeeee;
+  color: #000000;
+  font-size: 1em;
+  font-family: monospace;
+  font-weight: normal;
+  padding: 2px 6px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+span.underline {
+  border-bottom: 2px solid #555;
+}

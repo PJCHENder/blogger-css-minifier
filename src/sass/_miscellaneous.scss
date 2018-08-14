@@ -1,0 +1,44 @@
+span.zippy {
+  padding-right: 10px;
+}
+
+.share-media-group a {
+  margin: 0 10px;
+}
+
+.post-iconspbt {
+  display: none;
+}
+
+.item-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular-posts .item-content {
+  .item-thumbnail {
+    flex-basis: 70px;
+    margin-right: 1rem;
+  }
+
+  .item-title {
+    flex: 1 1 0;
+  }
+}
+
+.status-msg-wrap {
+  font-size: 110%;
+  max-width: 100%;
+  width: 920px;
+  margin: 2rem auto 0;
+  position: relative;
+}
+
+.index-boxnbt {
+  max-width: 950px;
+  padding: 1em 0 2em;
+  margin: 0 auto 1em;
+  background: #fafafa;
+}
+

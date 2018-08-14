@@ -1,0 +1,24 @@
+/*--------------------------------------------------------------
+PJCHENder Customization
+--------------------------------------------------------------*/
+
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+table {
+  width: 100%;
+}
+th {
+  border-bottom-width: 2px;
+}
+th,
+td {
+  padding: 3px 5px;
+}
+tbody tr:nth-child(odd) {
+  background-color: #eaeaea;
+}

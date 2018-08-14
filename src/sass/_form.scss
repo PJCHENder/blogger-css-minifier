@@ -1,0 +1,70 @@
+/*--------------------------------------------------------------
+Forms
+--------------------------------------------------------------*/
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  padding: 1em 2em;
+  font-size: 16px;
+  font-size: 1rem;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1;
+  color: hsl(0, 0%, 100%);
+  background: #3c3c3c;
+  background: hsl(0, 0%, 24%);
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+button:hover,
+input[type='button']:hover,
+input[type='reset']:hover,
+input[type='submit']:hover {
+  background: #000;
+  background: hsl(0, 0%, 0%);
+}
+button:focus,
+input[type='button']:focus,
+input[type='reset']:focus,
+input[type='submit']:focus,
+button:active,
+input[type='button']:active,
+input[type='reset']:active,
+input[type='submit']:active {
+  background: #000;
+  background: hsl(0, 0%, 0%);
+}
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+textarea {
+  padding: 8px;
+  font-family: 'Dosis', sans-serif;
+  color: #333;
+  border: 1px solid #ccc;
+}
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='url']:focus,
+input[type='password']:focus,
+input[type='search']:focus,
+textarea:focus {
+  color: #111;
+}
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'] {
+  padding: 3px;
+}
+textarea {
+  padding-left: 3px;
+  width: 100%;
+}
