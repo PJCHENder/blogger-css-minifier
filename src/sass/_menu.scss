@@ -236,6 +236,9 @@ Menus
 .menu-socialnbt li a[href*='linkedin.com']::before {
   content: '\f0e1';
 }
+.menu-socialnbt li a[href*='.github.io']::before {
+  content: '\f1c9';
+}
 .menu-socialnbt li a[href*='feeds/posts/default']::before {
   content: '\f09e';
 }
