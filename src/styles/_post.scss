@@ -4,8 +4,7 @@ Posts and pages
 /* Typography */
 .entry-title {
   margin: 0 0 1.5rem;
-  font-size: 53px;
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: 1.3;
   color: #333;
 }
@@ -92,7 +91,7 @@ blockquote {
 /* Smaller fonts for smaller screens */
 @media screen and (max-width: 680px) {
   .entry-title {
-    font-size: 2.8rem;
+    font-size: 1.75rem;
     line-height: 1.3em;
   }
 
@@ -130,7 +129,7 @@ blockquote {
 
 @media screen and (max-width: 480px) {
   .entry-title {
-    font-size: 2rem;
+    font-size: 1.75rem;
     line-height: 1.3em;
   }
 
@@ -152,7 +151,7 @@ blockquote {
 }
 
 .entry-metanbt {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   padding: 0;
   font-family: 'Dosis', sans-serif;
   font-size: 16px;
@@ -204,14 +203,19 @@ PJCHENder Customization
 .post-outer {
   transition: all 0.5s;
   margin: 40px 0px;
-  padding: 15px;
-  background: #fafafa;
-  border-radius: 3px;
-  box-shadow: 0px 0px 5px #eaeaea;
-  border: 1px solid #eaeaea;
+  padding: 0px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
 
   &:hover {
-    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .post-outer {
+    margin: 20px 0px;
   }
 }
 

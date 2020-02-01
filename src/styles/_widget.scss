@@ -12,8 +12,7 @@ Widgets
 }
 .widget-areanbt .widget h2 {
   margin-bottom: 1em;
-  font-size: 30px;
-  font-size: 1.875rem;
+  font-size: 1.5rem;
   border-bottom: 2px solid #000;
 }
 .widget-areanbt .widget a {
@@ -44,8 +43,7 @@ Widgets
 }
 .footer-widgetsnbt {
   margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 15px;
   overflow: auto;
 }
 .footer-widgetsnbt .widget h2,
@@ -61,9 +59,29 @@ Widgets
   margin: 0 1.5rem 3.5rem 2.5rem;
 }
 
+@media screen and (max-width: 770px) {
+  .footer-widgetsnbt .widget {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-widgetsnbt .widget {
+    float: none;
+    width: 100%;
+    margin: 0 0 3rem;
+  }
+}
+
 .widget .post-body ul,
 .widget .post-body ol {
   padding: 0 1.75rem;
   margin: 1.25rem 0;
   line-height: 1.5;
+}
+
+.widget.FeaturedPost {
+  h3 {
+    font-size: 1.25rem;
+  }
 }

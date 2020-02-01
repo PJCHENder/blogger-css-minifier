@@ -2,13 +2,13 @@
 16.0 Footer
 --------------------------------------------------------------*/
 .site-footernbt {
-  padding: 2em;
+  padding: 0;
   font-size: 14px;
   font-size: 0.875rem;
   color: #000;
-  background-color: none;
+  background-color: unset;
   width: 100%;
-  max-width: 1006px;
+  max-width: 950px;
   margin: 0 auto;
 
   a:hover {
@@ -17,25 +17,16 @@
 }
 
 #supplementarynbt {
-  background-color: #ededed;
-  border: solid 3px black;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  margin: 0 5px;
 }
 
 .site-infonbt {
   text-align: center;
   padding: 20px 0;
   border-bottom: 3px solid black;
-}
-
-@media screen and (max-width: 879px) {
-  #footer-widgetsnbt {
-    width: 100% !important;
-  }
-  .footer-widgetsnbt .widget {
-    float: none;
-    width: 100%;
-    margin: 0 0 3rem;
-  }
 }
 
 h2.date-header {
@@ -55,9 +46,7 @@ h2.date-header {
 }
 
 #comments {
-  padding: 2rem;
-  margin-bottom: 20px;
-  border: 3px solid #000;
+  padding: 1.5rem 3.5rem;
 
   h4 {
     font-size: 22px;
@@ -79,8 +68,8 @@ h2.date-header {
 
 #blog-pager {
   text-align: center;
-  padding: 5px;
-  margin: 10px 0;
+  padding: 0 3.5rem;
+  margin: 1.75rem 0;
 }
 
 .feed-links {
@@ -218,7 +207,7 @@ h2.date-header {
 
 .pbtsharethisbutt {
   overflow: hidden;
-  padding: 1.25rem 0;
+  padding: 1.5rem 0;
   margin: 0;
   float: left;
 
@@ -228,6 +217,11 @@ h2.date-header {
   }
 }
 
+.readmore {
+  float: right;
+  padding: 1.5rem 0;
+  margin: 0;
+}
 
 .spearator {
   a[style='margin-left: 1em; margin-right: 1em;'] {
