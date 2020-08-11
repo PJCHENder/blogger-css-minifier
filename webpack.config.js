@@ -127,12 +127,14 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: devMode ? '[name].css' : '[name].[hash].css',
     }),
-    new CopyWebpackPlugin([
-      {
-        from: './src/vendor',
-        to: './vendor',
-      },
-    ]),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: './src/vendor',
+          to: './vendor',
+        },
+      ],
+    }),
   ],
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
